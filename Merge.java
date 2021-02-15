@@ -40,7 +40,7 @@ public class Merge {
         while (input >= 0 && arr.size() < 10) {
             arr.add(input);
             input = scan.nextInt();
-            if (arr.get(count) > input && input >=0) {
+            if (arr.get(count) > input && input > 0) {
                 System.out.println("ERROR: Array not in correct order");
                 System.exit(1);
             }
